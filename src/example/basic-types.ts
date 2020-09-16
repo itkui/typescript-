@@ -1,3 +1,10 @@
+/*
+ * @Author: ItKui<13452903663@163.com>
+ * @Date: 2020-09-15 14:29:38
+ * @LastEditTime: 2020-09-16 16:54:01
+ * @FilePath: \typescript\src\example\basic-types.ts
+ * @FileName: 基础类型
+ */
 // boolean
 let bool: boolean = false;
 

@@ -1,9 +1,11 @@
 /*
- * @Author: ItKui
+ * @Author: ItKui<13452903663@163.com>
  * @Date: 2020-09-15 15:00:15
- * @LastEditTime: 2020-09-15 15:31:29
+ * @LastEditTime: 2020-09-16 16:54:11
  * @FilePath: \typescript\src\example\symbol.ts
+ * @FileName: symbol
  */
+
 // symbol 基本数据类型，独一无二的值
 const s1 = Symbol();
 

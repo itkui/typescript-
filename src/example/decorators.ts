@@ -1,10 +1,12 @@
 /*
- * @Author: ItKui
+ * @Author: ItKui<13452903663@163.com>
  * @Date: 2020-09-16 10:53:19
- * @LastEditTime: 2020-09-16 13:49:21
+ * @LastEditTime: 2020-09-16 16:53:49
  * @FilePath: \typescript\src\example\decorators.ts
+ * @FileName: 修饰器
  */
-function getPersion<F extends {new (...args: any[]):{}}>(constructor: F) {
+
+function getPersion<F extends {new (...args: any[]):any}>(constructor: F) {
    return class extends constructor {
     newName = '张三'
     newAge = 12
